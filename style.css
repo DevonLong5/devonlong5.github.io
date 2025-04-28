@@ -180,3 +180,69 @@ iframe {
     font-size: 1.2em;
     line-height: 1.5em;
 }
+
+
+/* Media Queries */
+
+/* 999px */
+
+@media (max-width: 999px) {
+    .navbar {
+        display: block;
+    }
+    .navbar > img {
+        display: block;
+        margin: auto;
+    }
+    .navbar li {
+        display: block;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .navbar li a {
+        padding: 5px;
+    }
+
+    ul {
+        padding: 0;
+    }
+    .topInfo {
+        display: block;
+        text-align: center;
+        
+    }
+
+    .rank-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0rem 10% 1em 10%;
+    }
+    .container{
+        margin: 0rem 10% 1em 10%;
+    }
+    .navbar li a:hover {
+        border: none;
+        background-color: #F3F3F3;
+        color: black;
+    }
+}
+
+/* 1000 — 1600px */
+@media (min-width: 1000px) and (max-width: 1600px){
+    .topInfo {
+        display: block;
+        text-align: center;
+    }
+    
+    .rank-container {
+        margin: 0rem 10% 1em 10%;
+    }
+    .container{
+        margin: 0rem 10% 1em 10%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #gameSensePhoto > img {
+        display: flex;
+        margin: auto;
+    }
+  }
