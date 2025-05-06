@@ -21,7 +21,6 @@ hr {
 .navbar > img {
     width: auto;
     height: 50px;
-    
 }
 
 .navbar {
@@ -180,6 +179,7 @@ iframe {
     font-size: 1.2em;
     line-height: 1.5em;
 }
+
 
 
 /* Media Queries */
