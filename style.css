@@ -134,10 +134,11 @@ footer a {
     margin-top: 0;
 }
 
-#mechanicsPhoto img {
-    margin: 1rem 25% 0 25%;
-    width: 960px;
-}
+/* #mechanicsPhoto > img {
+    display: flex;
+    margin: auto;
+} */
+
 
 
 .mechanics-container {
@@ -170,15 +171,7 @@ iframe {
     border: 3px black solid;
 }
 
-#gameSensePhoto img {
-    width: 960px;
-}
 
-#gameSensePhoto {
-    margin: 0rem 25% 1em 25%;
-    font-size: 1.2em;
-    line-height: 1.5em;
-}
 
 
 
@@ -225,6 +218,31 @@ iframe {
         background-color: #F3F3F3;
         color: black;
     }
+
+    .mechanics-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        padding: .3em;
+    }
+
+    iframe {
+        max-width: 90%;
+        margin: 0 5% 1% 5%;
+    }
+
+    
+
+    #showcase {
+        margin: 0 5% 1% 5%; 
+    }
+
+    #mechanicsPhoto > img {
+        display: flex;
+        margin: auto;
+    }
+    #ranksH1 {
+        margin: 0rem 10% 1em 10%;
+    }
 }
 
 /* 1000 — 1600px */
@@ -241,8 +259,26 @@ iframe {
         margin: 0rem 10% 1em 10%;
         grid-template-columns: repeat(1, 1fr);
     }
-    #gameSensePhoto > img {
+    
+    iframe {
+        max-width: 90%;
+        margin: 0rem 10% 1em 10%;
+    }
+
+    #mechanicsPhoto > img {
         display: flex;
         margin: auto;
+        padding-bottom: 2em;
+
+    }
+    .mechanics-container {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0rem 10% 1em 10%;
+    }
+    #showcase {
+        margin: 0rem 10% 1em 10%;
+    }
+    #ranksH1 {
+        margin: 0rem 10% 1em 10%;
     }
   }
